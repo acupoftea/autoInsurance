@@ -1,0 +1,12 @@
+C:\Users\liudh\Documents\Visual Studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\bin\Release\testAutoInsuranceWS.exe.config
+C:\Users\liudh\Documents\Visual Studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\bin\Release\testAutoInsuranceWS.exe
+C:\Users\liudh\Documents\Visual Studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\bin\Release\testAutoInsuranceWS.XmlSerializers.dll
+C:\Users\liudh\Documents\Visual Studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\bin\Release\testAutoInsuranceWS.pdb
+C:\Users\liudh\Documents\Visual Studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\bin\Release\Newtonsoft.Json.dll
+C:\Users\liudh\Documents\Visual Studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\obj\Release\testAutoInsuranceWS.Form1.resources
+C:\Users\liudh\Documents\Visual Studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\obj\Release\testAutoInsuranceWS.Properties.Resources.resources
+C:\Users\liudh\Documents\Visual Studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\obj\Release\testAutoInsuranceWS.csproj.GenerateResource.Cache
+C:\Users\liudh\Documents\Visual Studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\obj\Release\testAutoInsuranceWS.exe
+C:\Users\liudh\Documents\Visual Studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\obj\Release\testAutoInsuranceWS.pdb
+C:\Users\liudh\Documents\Visual Studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\obj\Release\testAutoInsuranceWS.XmlSerializers.dll
+C:\Users\liudh\documents\visual studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\obj\Release\testAutoInsuranceWS.csprojResolveAssemblyReference.cache

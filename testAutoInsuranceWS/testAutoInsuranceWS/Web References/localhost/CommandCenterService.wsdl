@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://autoInsurance/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="CommandCenterService" targetNamespace="http://autoInsurance/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:9080/autoInsurance?xsd=1" namespace="http://autoInsurance/" />
+    </xsd:schema>
+  </types>
+  <message name="queryRelationData">
+    <part name="parameters" element="tns:queryRelationData" />
+  </message>
+  <message name="queryRelationDataResponse">
+    <part name="parameters" element="tns:queryRelationDataResponse" />
+  </message>
+  <message name="queryBaodhByToubdh">
+    <part name="parameters" element="tns:queryBaodhByToubdh" />
+  </message>
+  <message name="queryBaodhByToubdhResponse">
+    <part name="parameters" element="tns:queryBaodhByToubdhResponse" />
+  </message>
+  <message name="queryBaoxgsList">
+    <part name="parameters" element="tns:queryBaoxgsList" />
+  </message>
+  <message name="queryBaoxgsListResponse">
+    <part name="parameters" element="tns:queryBaoxgsListResponse" />
+  </message>
+  <message name="queryBaseData">
+    <part name="parameters" element="tns:queryBaseData" />
+  </message>
+  <message name="queryBaseDataResponse">
+    <part name="parameters" element="tns:queryBaseDataResponse" />
+  </message>
+  <message name="saveAndHeB">
+    <part name="parameters" element="tns:saveAndHeB" />
+  </message>
+  <message name="saveAndHeBResponse">
+    <part name="parameters" element="tns:saveAndHeBResponse" />
+  </message>
+  <message name="queryHebJg">
+    <part name="parameters" element="tns:queryHebJg" />
+  </message>
+  <message name="queryHebJgResponse">
+    <part name="parameters" element="tns:queryHebJgResponse" />
+  </message>
+  <message name="suanF">
+    <part name="parameters" element="tns:suanF" />
+  </message>
+  <message name="suanFResponse">
+    <part name="parameters" element="tns:suanFResponse" />
+  </message>
+  <message name="login">
+    <part name="parameters" element="tns:login" />
+  </message>
+  <message name="loginResponse">
+    <part name="parameters" element="tns:loginResponse" />
+  </message>
+  <portType name="CommandCenter">
+    <operation name="queryRelationData">
+      <input wsam:Action="http://autoInsurance/CommandCenter/queryRelationDataRequest" message="tns:queryRelationData" />
+      <output wsam:Action="http://autoInsurance/CommandCenter/queryRelationDataResponse" message="tns:queryRelationDataResponse" />
+    </operation>
+    <operation name="queryBaodhByToubdh">
+      <input wsam:Action="http://autoInsurance/CommandCenter/queryBaodhByToubdhRequest" message="tns:queryBaodhByToubdh" />
+      <output wsam:Action="http://autoInsurance/CommandCenter/queryBaodhByToubdhResponse" message="tns:queryBaodhByToubdhResponse" />
+    </operation>
+    <operation name="queryBaoxgsList">
+      <input wsam:Action="http://autoInsurance/CommandCenter/queryBaoxgsListRequest" message="tns:queryBaoxgsList" />
+      <output wsam:Action="http://autoInsurance/CommandCenter/queryBaoxgsListResponse" message="tns:queryBaoxgsListResponse" />
+    </operation>
+    <operation name="queryBaseData">
+      <input wsam:Action="http://autoInsurance/CommandCenter/queryBaseDataRequest" message="tns:queryBaseData" />
+      <output wsam:Action="http://autoInsurance/CommandCenter/queryBaseDataResponse" message="tns:queryBaseDataResponse" />
+    </operation>
+    <operation name="saveAndHeB">
+      <input wsam:Action="http://autoInsurance/CommandCenter/saveAndHeBRequest" message="tns:saveAndHeB" />
+      <output wsam:Action="http://autoInsurance/CommandCenter/saveAndHeBResponse" message="tns:saveAndHeBResponse" />
+    </operation>
+    <operation name="queryHebJg">
+      <input wsam:Action="http://autoInsurance/CommandCenter/queryHebJgRequest" message="tns:queryHebJg" />
+      <output wsam:Action="http://autoInsurance/CommandCenter/queryHebJgResponse" message="tns:queryHebJgResponse" />
+    </operation>
+    <operation name="suanF">
+      <input wsam:Action="http://autoInsurance/CommandCenter/suanFRequest" message="tns:suanF" />
+      <output wsam:Action="http://autoInsurance/CommandCenter/suanFResponse" message="tns:suanFResponse" />
+    </operation>
+    <operation name="login">
+      <input wsam:Action="http://autoInsurance/CommandCenter/loginRequest" message="tns:login" />
+      <output wsam:Action="http://autoInsurance/CommandCenter/loginResponse" message="tns:loginResponse" />
+    </operation>
+  </portType>
+  <binding name="CommandCenterPortBinding" type="tns:CommandCenter">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="queryRelationData">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="queryBaodhByToubdh">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="queryBaoxgsList">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="queryBaseData">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="saveAndHeB">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="queryHebJg">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="suanF">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="login">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="CommandCenterService">
+    <port name="CommandCenterPort" binding="tns:CommandCenterPortBinding">
+      <soap:address location="http://localhost:9080/autoInsurance" />
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://autoInsurance/" targetNamespace="http://autoInsurance/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="login" type="tns:login" />
+  <xs:element name="loginResponse" type="tns:loginResponse" />
+  <xs:element name="queryBaodhByToubdh" type="tns:queryBaodhByToubdh" />
+  <xs:element name="queryBaodhByToubdhResponse" type="tns:queryBaodhByToubdhResponse" />
+  <xs:element name="queryBaoxgsList" type="tns:queryBaoxgsList" />
+  <xs:element name="queryBaoxgsListResponse" type="tns:queryBaoxgsListResponse" />
+  <xs:element name="queryBaseData" type="tns:queryBaseData" />
+  <xs:element name="queryBaseDataResponse" type="tns:queryBaseDataResponse" />
+  <xs:element name="queryHebJg" type="tns:queryHebJg" />
+  <xs:element name="queryHebJgResponse" type="tns:queryHebJgResponse" />
+  <xs:element name="queryRelationData" type="tns:queryRelationData" />
+  <xs:element name="queryRelationDataResponse" type="tns:queryRelationDataResponse" />
+  <xs:element name="saveAndHeB" type="tns:saveAndHeB" />
+  <xs:element name="saveAndHeBResponse" type="tns:saveAndHeBResponse" />
+  <xs:element name="suanF" type="tns:suanF" />
+  <xs:element name="suanFResponse" type="tns:suanFResponse" />
+  <xs:complexType name="queryHebJg">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="queryHebJgResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="queryBaodhByToubdh">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="queryBaodhByToubdhResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="suanF">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="suanFResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="queryRelationData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="queryRelationDataResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="saveAndHeB">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="saveAndHeBResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="login">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="loginResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="queryBaseData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="queryBaseDataResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="queryBaoxgsList">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="queryBaoxgsListResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,10 @@
+C:\Users\liudh\documents\visual studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\bin\Debug\testAutoInsuranceWS.exe.config
+C:\Users\liudh\documents\visual studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\bin\Debug\testAutoInsuranceWS.exe
+C:\Users\liudh\documents\visual studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\bin\Debug\testAutoInsuranceWS.pdb
+C:\Users\liudh\documents\visual studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\liudh\documents\visual studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\obj\Debug\testAutoInsuranceWS.Form1.resources
+C:\Users\liudh\documents\visual studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\obj\Debug\testAutoInsuranceWS.Properties.Resources.resources
+C:\Users\liudh\documents\visual studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\obj\Debug\testAutoInsuranceWS.csproj.GenerateResource.Cache
+C:\Users\liudh\documents\visual studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\obj\Debug\testAutoInsuranceWS.exe
+C:\Users\liudh\documents\visual studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\obj\Debug\testAutoInsuranceWS.pdb
+C:\Users\liudh\documents\visual studio 2013\Projects\testAutoInsuranceWS\testAutoInsuranceWS\obj\Debug\testAutoInsuranceWS.csprojResolveAssemblyReference.cache
